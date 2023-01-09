@@ -20,7 +20,6 @@ public class inicioPagina extends clasePrincipal{
 
     public void clickBtnInicioSesion() throws Exception {
 
-        Thread.sleep(2000);
         this.click(btnInicioSesion);
     }
 

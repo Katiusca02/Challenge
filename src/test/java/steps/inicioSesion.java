@@ -3,9 +3,10 @@ package steps;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.WebElement;
+
 
 
 public class inicioSesion extends claseBase{
@@ -34,8 +35,18 @@ public class inicioSesion extends claseBase{
 
         iniciarSesion.ingresoClave(clave);
         iniciarSesion.btnInicioSesion();
-        Assert.assertTrue(iniciarSesion.bienvenida());
 
+    }
 
+    @Then("Ingresa a su cuenta")
+    public void ingresaASuCuenta() throws Exception {
+        Thread.sleep(2000);
+        Assert.assertTrue("No se inicio sesion correctamente",iniciarSesion.bienvenidaUsuario());
+    }
+
+    @And("Hace clic en el menu opcion laptop")
+    public void haceClicEnElMenuOpcionLaptop() throws Exception {
+        Thread.sleep(5000);
+        iniciarSesion.btnLaptopMenu();
     }
 }
