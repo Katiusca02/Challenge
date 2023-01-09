@@ -1,0 +1,10 @@
+pageObjectModel\clasePrincipal.class
+steps\inicioSesion.class
+pageObjectModel\registroUsuario.class
+steps\claseBase.class
+pageObjectModel\inicioPagina.class
+Challenge\AppTest.class
+steps\Hook.class
+pageObjectModel\iniciarSesion.class
+runner\runner.class
+steps\registrarUsuario.class
