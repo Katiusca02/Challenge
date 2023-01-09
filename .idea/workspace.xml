@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f05b50f5-ae78-4889-a59c-c864fd229c21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Mathias.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Challenge/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Challenge/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/inicioSesion.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/clasePrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/iniciarSesion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageObjectModel/inicioPagina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/claseBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/inicioSesion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/chromedriver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +29,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../../../../Program Files/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
